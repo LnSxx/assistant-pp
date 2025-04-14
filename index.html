@@ -1,18 +1,27 @@
-<!doctype html><html lang="en"><head></head><body>
+<!doctype html>
+<html lang="en">
 
-  
-    <meta charset="utf-8">
-    <title>.assistant</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<head></head>
+
+<body>
+
+
+  <meta charset="utf-8">
+  <title>Sleep Diary Privacy Policy</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-config" content="/browserconfig.xml" />
-    <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <dark-mode permanent="true" style="position: fixed; top: 8px; left: 10px; z-index: 999;" dark="Dark" light="Light"></dark-mode><script>const t=document;const e="_dark_mode_theme_";const s="permanent";const o="colorschemechange";const i="permanentcolorscheme";const h="light";const r="dark";const n=(t,e,s=e)=>{Object.defineProperty(t,s,{enumerable:true,get(){const t=this.getAttribute(e);return t===null?"":t},set(t){this.setAttribute(e,t)}})};const c=(t,e,s=e)=>{Object.defineProperty(t,s,{enumerable:true,get(){return this.hasAttribute(e)},set(t){if(t){this.setAttribute(e,"")}else{this.removeAttribute(e)}}})};class a extends HTMLElement{static get observedAttributes(){return["mode",h,r,s]}LOCAL_NANE=e;constructor(){super();this.t()}connectedCallback(){n(this,"mode");n(this,r);n(this,h);c(this,s);const a=localStorage.getItem(e);if(a&&[h,r].includes(a)){this.mode=a;this.permanent=true}if(this.permanent&&!a){localStorage.setItem(e,this.mode)}const l=[h,r].includes(a);if(this.permanent&&a){this.o()}else{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches){this.mode=r;this.o()}if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: light)").matches){this.mode=h;this.o()}}if(!this.permanent&&!l){window.matchMedia("(prefers-color-scheme: light)").onchange=t=>{this.mode=t.matches?h:r;this.o()};window.matchMedia("(prefers-color-scheme: dark)").onchange=t=>{this.mode=t.matches?r:h;this.o()}}const d=new MutationObserver(((s,h)=>{this.mode=t.documentElement.dataset.colorMode;if(this.permanent&&l){localStorage.setItem(e,this.mode);this.i(i,{permanent:this.permanent})}this.h();this.i(o,{colorScheme:this.mode})}));d.observe(t.documentElement,{attributes:true});this.i(o,{colorScheme:this.mode});this.h()}attributeChangedCallback(t,s,o){if(t==="mode"&&s!==o&&[h,r].includes(o)){const t=localStorage.getItem(e);if(this.mode===t){this.mode=o;this.h();this.o()}else if(this.mode&&this.mode!==t){this.h();this.o()}}else if((t===h||t===r)&&s!==o){this.h()}if(t==="permanent"&&typeof this.permanent==="boolean"){this.permanent?localStorage.setItem(e,this.mode):localStorage.removeItem(e)}}o(){t.documentElement.setAttribute("data-color-mode",this.mode)}h(){this.icon.textContent=this.mode===h?"🌒":"🌞";this.text.textContent=this.mode===h?this.getAttribute(r):this.getAttribute(h)}t(){var s=this.attachShadow({mode:"open"});this.label=t.createElement("span");this.label.setAttribute("class","wrapper");this.label.onclick=()=>{this.mode=this.mode===h?r:h;if(this.permanent){localStorage.setItem(e,this.mode)}this.o();this.h()};s.appendChild(this.label);this.icon=t.createElement("span");this.label.appendChild(this.icon);this.text=t.createElement("span");this.label.appendChild(this.text);const o=`
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-config" content="/browserconfig.xml" />
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <dark-mode permanent="true" style="position: fixed; top: 8px; left: 10px; z-index: 999;" dark="Dark"
+    light="Light"></dark-mode>
+  <script>const t = document; const e = "_dark_mode_theme_"; const s = "permanent"; const o = "colorschemechange"; const i = "permanentcolorscheme"; const h = "light"; const r = "dark"; const n = (t, e, s = e) => { Object.defineProperty(t, s, { enumerable: true, get() { const t = this.getAttribute(e); return t === null ? "" : t }, set(t) { this.setAttribute(e, t) } }) }; const c = (t, e, s = e) => { Object.defineProperty(t, s, { enumerable: true, get() { return this.hasAttribute(e) }, set(t) { if (t) { this.setAttribute(e, "") } else { this.removeAttribute(e) } } }) }; class a extends HTMLElement {
+      static get observedAttributes() { return ["mode", h, r, s] } LOCAL_NANE = e; constructor() { super(); this.t() } connectedCallback() { n(this, "mode"); n(this, r); n(this, h); c(this, s); const a = localStorage.getItem(e); if (a && [h, r].includes(a)) { this.mode = a; this.permanent = true } if (this.permanent && !a) { localStorage.setItem(e, this.mode) } const l = [h, r].includes(a); if (this.permanent && a) { this.o() } else { if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) { this.mode = r; this.o() } if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) { this.mode = h; this.o() } } if (!this.permanent && !l) { window.matchMedia("(prefers-color-scheme: light)").onchange = t => { this.mode = t.matches ? h : r; this.o() }; window.matchMedia("(prefers-color-scheme: dark)").onchange = t => { this.mode = t.matches ? r : h; this.o() } } const d = new MutationObserver(((s, h) => { this.mode = t.documentElement.dataset.colorMode; if (this.permanent && l) { localStorage.setItem(e, this.mode); this.i(i, { permanent: this.permanent }) } this.h(); this.i(o, { colorScheme: this.mode }) })); d.observe(t.documentElement, { attributes: true }); this.i(o, { colorScheme: this.mode }); this.h() } attributeChangedCallback(t, s, o) { if (t === "mode" && s !== o && [h, r].includes(o)) { const t = localStorage.getItem(e); if (this.mode === t) { this.mode = o; this.h(); this.o() } else if (this.mode && this.mode !== t) { this.h(); this.o() } } else if ((t === h || t === r) && s !== o) { this.h() } if (t === "permanent" && typeof this.permanent === "boolean") { this.permanent ? localStorage.setItem(e, this.mode) : localStorage.removeItem(e) } } o() { t.documentElement.setAttribute("data-color-mode", this.mode) } h() { this.icon.textContent = this.mode === h ? "🌒" : "🌞"; this.text.textContent = this.mode === h ? this.getAttribute(r) : this.getAttribute(h) } t() {
+        var s = this.attachShadow({ mode: "open" }); this.label = t.createElement("span"); this.label.setAttribute("class", "wrapper"); this.label.onclick = () => { this.mode = this.mode === h ? r : h; if (this.permanent) { localStorage.setItem(e, this.mode) } this.o(); this.h() }; s.appendChild(this.label); this.icon = t.createElement("span"); this.label.appendChild(this.icon); this.text = t.createElement("span"); this.label.appendChild(this.text); const o = `
 [data-color-mode*='dark'], [data-color-mode*='dark'] body {
   color-scheme: dark;
   --color-theme-bg: #0d1117;
@@ -27,11 +36,14 @@
   --color-theme-text: #24292f;
   background-color: var(--color-theme-bg);
   color: var(--color-theme-text);
-}`;const i="_dark_mode_style_";const n=t.getElementById(i);if(!n){var c=t.createElement("style");c.id=i;c.textContent=o;t.head.appendChild(c)}var a=t.createElement("style");a.textContent=`
+}`; const i = "_dark_mode_style_"; const n = t.getElementById(i); if (!n) { var c = t.createElement("style"); c.id = i; c.textContent = o; t.head.appendChild(c) } var a = t.createElement("style"); a.textContent = `
     .wrapper { cursor: pointer; user-select: none; position: relative; }
     .wrapper > span + span { margin-left: .4rem; }
-    `;s.appendChild(a)}i(t,e){this.dispatchEvent(new CustomEvent(t,{bubbles:true,composed:true,detail:e}))}}customElements.define("dark-mode",a);</script><script>const __TEMPLATE__ = document.createElement('template');
-__TEMPLATE__.innerHTML = `
+    `; s.appendChild(a)
+      } i(t, e) { this.dispatchEvent(new CustomEvent(t, { bubbles: true, composed: true, detail: e })) }
+    } customElements.define("dark-mode", a);</script>
+  <script>const __TEMPLATE__ = document.createElement('template');
+    __TEMPLATE__.innerHTML = `
 <style>
 
 markdown-style h1:hover a.anchor .octicon-link:before,
@@ -55,137 +67,165 @@ markdown-style .octicon-video { border: 1px solid #d0d7de !important; border-rad
 </style>
 <slot></slot>
 `;
-class MarkdownStyle extends HTMLElement {
-    constructor() {
+    class MarkdownStyle extends HTMLElement {
+      constructor() {
         super();
         this.shadow = this.attachShadow({ mode: 'open' });
         this.shadow.appendChild(__TEMPLATE__.content.cloneNode(true));
         const style = Array.prototype.slice
-            .call(this.shadow.children)
-            .find((item) => item.tagName === 'STYLE');
+          .call(this.shadow.children)
+          .find((item) => item.tagName === 'STYLE');
         if (style) {
-            const id = '__MARKDOWN_STYLE__';
-            const findStyle = document.getElementById(id);
-            if (!findStyle) {
-                style.id = id;
-                document.head.append(style);
-            }
+          const id = '__MARKDOWN_STYLE__';
+          const findStyle = document.getElementById(id);
+          if (!findStyle) {
+            style.id = id;
+            document.head.append(style);
+          }
         }
-    }
-    get theme() {
+      }
+      get theme() {
         const value = this.getAttribute('theme');
         return value === null ? '' : value;
-    }
-    set theme(name) {
+      }
+      set theme(name) {
         this.setAttribute('theme', name);
-    }
-    connectedCallback() {
+      }
+      connectedCallback() {
         if (!this.theme) {
-            const { colorMode } = document.documentElement.dataset;
-            this.theme = colorMode;
-            const observer = new MutationObserver((mutationsList, observer) => {
-                this.theme = document.documentElement.dataset.colorMode;
-            });
-            observer.observe(document.documentElement, { attributes: true });
-            window.matchMedia('(prefers-color-scheme: light)').onchange = (event) => {
-                this.theme = event.matches ? 'light' : 'dark';
-            };
-            window.matchMedia('(prefers-color-scheme: dark)').onchange = (event) => {
-                this.theme = event.matches ? 'dark' : 'light';
-            };
+          const { colorMode } = document.documentElement.dataset;
+          this.theme = colorMode;
+          const observer = new MutationObserver((mutationsList, observer) => {
+            this.theme = document.documentElement.dataset.colorMode;
+          });
+          observer.observe(document.documentElement, { attributes: true });
+          window.matchMedia('(prefers-color-scheme: light)').onchange = (event) => {
+            this.theme = event.matches ? 'light' : 'dark';
+          };
+          window.matchMedia('(prefers-color-scheme: dark)').onchange = (event) => {
+            this.theme = event.matches ? 'dark' : 'light';
+          };
         }
+      }
     }
-}
-customElements.define('markdown-style', MarkdownStyle);</script><markdown-style style="max-width: 960px; margin: 0 auto 60px auto; padding: 8px" class="markdown-style">
-    <h1 id="privacy-policy"><a class="anchor" aria-hidden="true" tabindex="-1" href="#privacy-policy"><span class="octicon octicon-link"></span></a>Privacy Policy</h1>
+    customElements.define('markdown-style', MarkdownStyle);</script><markdown-style
+    style="max-width: 960px; margin: 0 auto 60px auto; padding: 8px" class="markdown-style">
+    <h1 id="privacy-policy"><a class="anchor" aria-hidden="true" tabindex="-1" href="#privacy-policy"><span
+          class="octicon octicon-link"></span></a>Privacy Policy</h1>
     <p>
-      Leonid Semenov built the RedExpress app as an Open Source app. This SERVICE is provided by Leonid Semenov at no cost and is intended for use as is.
-      This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
-      If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
-      The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at RedExpress unless otherwise defined in this Privacy Policy.
+      Last updated: April 13, 2025
     </p>
-    <h2 id="information-collection-and-use"><a class="anchor" aria-hidden="true" tabindex="-1" href="#information-collection-and-use"><span class="octicon octicon-link"></span></a>Information Collection and Use</h2>
-    <p>For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.</p>
-    <h2 id="log-data"><a class="anchor" aria-hidden="true" tabindex="-1" href="#log-data"><span class="octicon octicon-link"></span></a>Log Data</h2>
-    <p>I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.</p>
-    <h2 id="cookies"><a class="anchor" aria-hidden="true" tabindex="-1" href="#cookies"><span class="octicon octicon-link"></span></a>Cookies</h2>
     <p>
-      Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
-      This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+      Sleep Diary ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy outlines how
+      we handle your information.
     </p>
-    <h2 id="service-providers"><a class="anchor" aria-hidden="true" tabindex="-1" href="#service-providers"><span class="octicon octicon-link"></span></a>Service Providers</h2>
-    <p>I may employ third-party companies and individuals due to the following reasons:</p>
-    <ul>
-      <li>To facilitate our Service;</li>
-      <li>To provide the Service on our behalf;</li>
-      <li>To perform Service-related services; or</li>
-      <li>
-        To assist us in analyzing how our Service is used.
-        I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
-      </li>
-    </ul>
-    <h2 id="security"><a class="anchor" aria-hidden="true" tabindex="-1" href="#security"><span class="octicon octicon-link"></span></a>Security</h2>
-    <p>I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.</p>
-    <h2 id="links-to-other-sites"><a class="anchor" aria-hidden="true" tabindex="-1" href="#links-to-other-sites"><span class="octicon octicon-link"></span></a>Links to Other Sites</h2>
-    <p>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
-    <h2 id="childrens-privacy"><a class="anchor" aria-hidden="true" tabindex="-1" href="#childrens-privacy"><span class="octicon octicon-link"></span></a>Children’s Privacy</h2>
-    <p>I do not knowingly collect personally identifiable information from children. I encourage all children to never submit any personally identifiable information through the Application and/or Services. I encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to us through the Application and/or Services, please contact us. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).</p>
-    <h2 id="changes-to-this-privacy-policy"><a class="anchor" aria-hidden="true" tabindex="-1" href="#changes-to-this-privacy-policy"><span class="octicon octicon-link"></span></a>Changes to This Privacy Policy</h2>
+    <h2 id="information-collection-and-use"><a class="anchor" aria-hidden="true" tabindex="-1"
+        href="#information-collection-and-use"><span class="octicon octicon-link"></span></a>1. Information We Collect
+    </h2>
     <p>
-      I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
-      This policy is effective as of 2022-12-25
-      Contact Us
-      If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at <a href="mailto:ln.sm.study@gmail.com">ln.sm.study@gmail.com</a>.
+      We do not collect, store, or share any personal data.
     </p>
-  <style>markdown-style pre .copied {
-  display: flex;
-  position: absolute;
-  cursor: pointer;
-  color: #a5afbb;
-  top: 6px;
-  right: 6px;
-  border-radius: 5px;
-  background: #82828226;
-  padding: 6px;
-  font-size: 12px;
-  transition: all .3s;
-}
-markdown-style pre .copied:not(.active) {
-  visibility: hidden;
-}
-markdown-style pre:hover .copied {
-  visibility: visible;
-}
-markdown-style pre:hover .copied:hover {
-  background: #4caf50;
-  color: #fff;
-}
-markdown-style pre:hover .copied:active,
-markdown-style pre .copied.active {
-  background: #2e9b33;
-  color: #fff;
-}
-markdown-style pre .copied .octicon-copy {
-  display: block;
-}
-markdown-style pre .copied .octicon-check {
-  display: none;
-}
-markdown-style pre .active .octicon-copy {
-  display: none;
-}
-markdown-style pre .active .octicon-check {
-  display: block;
-}</style><script>/*! @uiw/copy-to-clipboard v1.0.12 | MIT (c) 2021 Kenny Wang | https://github.com/uiwjs/copy-to-clipboard.git */
-!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):(e="undefined"!=typeof globalThis?globalThis:e||self).copyTextToClipboard=t()}(this,(function(){"use strict";return function(e,t){const o=document.createElement("textarea");o.value=e,o.setAttribute("readonly",""),o.style={position:"absolute",left:"-9999px"},document.body.appendChild(o);const n=document.getSelection().rangeCount>0&&document.getSelection().getRangeAt(0);o.select();let c=!1;try{c=!!document.execCommand("copy")}catch(e){c=!1}document.body.removeChild(o),n&&document.getSelection&&(document.getSelection().removeAllRanges(),document.getSelection().addRange(n)),t&&t(c)}}));
+    <p>
+      All data you enter in the app (like dream records) stays entirely on your device and is never transmitted or
+      uploaded anywhere.
+    </p>
+    <h2 id="cookies"><a class="anchor" aria-hidden="true" tabindex="-1" href="#cookies"><span
+          class="octicon octicon-link"></span></a>2. Cookies and Tracking</h2>
+    <p>
+      Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are
+      sent to your browser from the websites that you visit and are stored on your device's internal memory.
+      The app does not use cookies or any form of analytics or tracking tools.
+    </p>
+    <h2 id="service-providers"><a class="anchor" aria-hidden="true" tabindex="-1" href="#service-providers"><span
+          class="octicon octicon-link"></span></a>Third-Party Access</h2>
+    <p>We do not share your data with any third parties. There are no third-party SDKs in the app that collect user
+      information.</p>
+    <h2 id="security"><a class="anchor" aria-hidden="true" tabindex="-1" href="#security"><span
+          class="octicon octicon-link"></span></a>4. Data Security</h2>
+    <p>Your records are stored securely in local app storage using Android's DataStore system. We do not have access to
+      this data.</p>
+    <h2 id="childrens-privacy"><a class="anchor" aria-hidden="true" tabindex="-1" href="#childrens-privacy"><span
+          class="octicon octicon-link"></span></a>5. Children’s Privacy</h2>
+    <p>Sleep Diary does not target children and does not knowingly collect any data from users of any age.</p>
+    <h2 id="changes-to-this-privacy-policy"><a class="anchor" aria-hidden="true" tabindex="-1"
+        href="#changes-to-this-privacy-policy"><span class="octicon octicon-link"></span></a>6. Changes to This Privacy
+      Policy</h2>
+    <p>
+      We may update this policy from time to time. Any changes will be reflected here, and the date of revision will be
+      updated at the top.
+    </p>
+    <h2 id="contacts"><a class="anchor" aria-hidden="true" tabindex="-1" href="#contacts"><span
+          class="octicon octicon-link"></span></a>7. Contact</h2>
+    <p>
+      We may update this policy from time to time. Any changes will be reflected here, and the date of revision will be
+      updated at the top.
+      If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at <a
+        href="mailto:ln.sm.study@gmail.com">ln.sm.study@gmail.com</a>.
+    </p>
+    <style>
+      markdown-style pre .copied {
+        display: flex;
+        position: absolute;
+        cursor: pointer;
+        color: #a5afbb;
+        top: 6px;
+        right: 6px;
+        border-radius: 5px;
+        background: #82828226;
+        padding: 6px;
+        font-size: 12px;
+        transition: all .3s;
+      }
 
-function copied(target, str) {
-  target.classList.add('active');
-  copyTextToClipboard(target.dataset.code, function() {
-    setTimeout(() => {
-      target.classList.remove('active');
-    }, 2000);
-  });
-}</script></markdown-style>
+      markdown-style pre .copied:not(.active) {
+        visibility: hidden;
+      }
 
-</body></html>
+      markdown-style pre:hover .copied {
+        visibility: visible;
+      }
+
+      markdown-style pre:hover .copied:hover {
+        background: #4caf50;
+        color: #fff;
+      }
+
+      markdown-style pre:hover .copied:active,
+      markdown-style pre .copied.active {
+        background: #2e9b33;
+        color: #fff;
+      }
+
+      markdown-style pre .copied .octicon-copy {
+        display: block;
+      }
+
+      markdown-style pre .copied .octicon-check {
+        display: none;
+      }
+
+      markdown-style pre .active .octicon-copy {
+        display: none;
+      }
+
+      markdown-style pre .active .octicon-check {
+        display: block;
+      }
+
+    </style>
+    <script>/*! @uiw/copy-to-clipboard v1.0.12 | MIT (c) 2021 Kenny Wang | https://github.com/uiwjs/copy-to-clipboard.git */
+      !function (e, t) { "object" == typeof exports && "undefined" != typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define(t) : (e = "undefined" != typeof globalThis ? globalThis : e || self).copyTextToClipboard = t() }(this, (function () { "use strict"; return function (e, t) { const o = document.createElement("textarea"); o.value = e, o.setAttribute("readonly", ""), o.style = { position: "absolute", left: "-9999px" }, document.body.appendChild(o); const n = document.getSelection().rangeCount > 0 && document.getSelection().getRangeAt(0); o.select(); let c = !1; try { c = !!document.execCommand("copy") } catch (e) { c = !1 } document.body.removeChild(o), n && document.getSelection && (document.getSelection().removeAllRanges(), document.getSelection().addRange(n)), t && t(c) } }));
+
+      function copied(target, str) {
+        target.classList.add('active');
+        copyTextToClipboard(target.dataset.code, function () {
+          setTimeout(() => {
+            target.classList.remove('active');
+          }, 2000);
+        });
+      }</script>
+  </markdown-style>
+
+</body>
+
+</html>
